@@ -1,0 +1,145 @@
+/*
+ * Base structure
+ */
+
+body {
+    font-family: "Montserrat";
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(255, 148, 0, .1);
+
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+/*
+ * Header
+ */
+
+
+header {
+    height: 138px;
+    color: #FF9400;
+    background: linear-gradient(#724C32, #1C120B);
+}
+
+.Header__menu {
+    margin-left: 315px;
+    max-width: 100%;
+    height: 100%;
+}
+
+
+.nav-masthead .nav-link {
+    font-size: 20px;
+    color: #FF9400;
+    margin-left: 40px;
+}
+
+
+.nav-masthead .active {
+    border-radius: 3px;
+    color: #CCCCCC;
+    background: linear-gradient(180deg, rgba(159, 159, 159, 0.5) 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+/*
+AboutUscontent
+*/
+
+
+.Content {
+    color: #FF9400;
+    background: linear-gradient(#724C32, 10%, #1C120B);
+}
+
+.image__AboutUs__top {
+    outline-offset: -30px;
+    outline: 30px solid rgba(75, 75, 75, 0.2);
+    outline-style: hidden;
+    border-radius: 35px;
+
+}
+
+.AboutUs__p {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(180deg, #FF9400 0%, rgba(255, 255, 255, 0.57) 100%);
+    width: 690px;
+}
+
+
+/*
+Menu
+*/
+
+.menu {
+    height: 384px;
+    width: 269px;
+
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+
+    background-image: url('./images/Согревающий чай.png');
+
+    /*  outline-offset: -35px;
+    outline: 33px solid rgba(75, 75, 75, 0.2);
+    outline-style: hidden;
+    border-radius: 75px; */
+}
+
+.second__menu {
+    background-image: url('./images/Авторский чай.png');
+}
+
+
+/*
+event and booking
+*/
+
+.event__and__booking {
+    height: 384px;
+    width: 269px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+
+    background: black;
+    border-radius: 20px;
+}
+
+.active__event {
+    width: 1124px;
+    height: 726px;
+
+    justify-content: center;
+
+    color: white;
+
+    margin-top: 50px;
+
+    background: #FFFFFF29;
+    border-radius: 20px;
+
+}
+
+.active__event__header {
+    height: 120px;
+}
+
+.active__event__content {
+    width: 500px;
+    height: 395px;
+}
