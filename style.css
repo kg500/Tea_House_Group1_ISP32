@@ -48,10 +48,12 @@ header {
 AboutUscontent
 */
 
-
 .Content {
     color: #FF9400;
-    background: linear-gradient(#724C32, 10%, #1C120B);
+    background: linear-gradient(180deg, #1D120C 15.42%, #6B3F27 100%),
+linear-gradient(90deg, rgba(29, 18, 12, 0.3) 0%, rgba(29, 18, 12, 0.3) 20%, rgba(29, 18, 12, 0.3) 81%, rgba(64, 42, 31, 0.3) 100%),
+linear-gradient(180deg, rgba(231, 119, 94, 0.4) 0%, rgba(28, 18, 11, 0.4) 2.11%, rgba(29, 18, 12, 0.4) 2.11%);
+
 }
 
 .image__AboutUs__top {
@@ -102,8 +104,11 @@ Menu
 /*
 event and booking
 */
+.event__and__booking{
+    background: linear-gradient(180deg,rgba(64, 42, 31, 0.3), #1C120B 100% );
 
-.event__and__booking {
+}
+.event__and__booking__content {
     height: 384px;
     width: 269px;
 
@@ -124,22 +129,40 @@ event and booking
     width: 1124px;
     height: 726px;
 
-    justify-content: center;
-
     color: white;
 
     margin-top: 50px;
-
+    margin-bottom: 100px;
     background: #FFFFFF29;
     border-radius: 20px;
 
 }
 
-.active__event__header {
-    height: 120px;
-}
 
 .active__event__content {
-    width: 500px;
-    height: 395px;
+    width: 580px;
+   
+}
+
+.button__booking{
+    width: 250px;
+    height: 65px;
+
+    margin-top: 50px;
+    
+    color: black;
+    background: #C6BAAA;
+    border-radius: 20px;
+}
+
+/*
+footer
+*/
+
+.content__footer{
+    background: #523e32;
+    color: #FF9400;
+}
+.po{
+    justify-content: flex-start;
 }
