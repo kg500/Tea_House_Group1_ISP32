@@ -159,10 +159,26 @@ event and booking
 footer
 */
 
-.content__footer{
+.content__footer {    
+    padding: 1.5rem;
+    color: #FF9400;
+}
+
+.content__footer__logo {
+    width: 20%;
+    padding: 1.5rem;
     background: #523e32;
     color: #FF9400;
 }
-.po{
-    justify-content: flex-start;
+
+.content__footer__up{
+    width: 100%;
+    display: flex;
+    background: #523e32;
+    color: #FF9400;
+    border-bottom: solid;
+}
+
+.center_footer {
+    margin-left: 20%;
 }
