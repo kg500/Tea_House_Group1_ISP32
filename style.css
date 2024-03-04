@@ -134,7 +134,7 @@ event and booking
     margin-top: 50px;
     margin-bottom: 100px;
     background: #FFFFFF29;
-    border-radius: 20px;
+    border-radius: 30px;
 
 }
 
@@ -159,6 +159,10 @@ event and booking
 footer
 */
 
+footer{
+    background: #523e32;
+}
+
 .content__footer {    
     padding: 1.5rem;
     color: #FF9400;
@@ -167,18 +171,26 @@ footer
 .content__footer__logo {
     width: 20%;
     padding: 1.5rem;
-    background: #523e32;
     color: #FF9400;
 }
 
 .content__footer__up{
     width: 100%;
-    display: flex;
     background: #523e32;
-    color: #FF9400;
-    border-bottom: solid;
+}
+
+.line{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 4px;
+    background-color: #CCCCCC;
 }
 
 .center_footer {
     margin-left: 20%;
+}
+
+.content__footer__center{
+    display: inline-block;
+    color: white;
 }
